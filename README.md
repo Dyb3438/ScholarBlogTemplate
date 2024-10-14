@@ -1,6 +1,6 @@
 # ScholarBlog
 
-This template should help get you started developing with Vue 3 in Vite.
+The Scholar Blog Template is built upon the [Vue 3](https://vuejs.org) framework and will be deployed on the [Vercel](https://vercel.com/) platform without any private server.
 
 ## Recommended IDE Setup
 
