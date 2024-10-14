@@ -1,0 +1,23 @@
+{
+    "rewrites": [
+        {
+            "source": "/backend/scholar",
+            "destination": "/api/scholar"
+        },
+        {
+            "source": "/backend/_update_scholar",
+            "destination": "/api/update_scholar"
+        },
+        {
+            "source": "/:path*",
+            "destination": "/index.html"
+        }
+    ],
+
+    "crons": [
+        {
+          "path": "/backend/_update_scholar",
+          "schedule": "0 20 * * *"
+        }
+      ]
+}

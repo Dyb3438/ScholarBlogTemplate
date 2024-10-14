@@ -1,0 +1,23 @@
+{
+  "name": "ScholarBlogTemplate",
+  "version": "0.0.0",
+  "author": "Su.Yongyi",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.2.2",
+    "@vercel/blob": "^0.25.0",
+    "fetch-jsonp": "^1.2.3",
+    "vue": "^3.3.2",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "http-proxy-middleware": "^2.0.6",
+    "vite": "^4.3.5"
+  }
+}
